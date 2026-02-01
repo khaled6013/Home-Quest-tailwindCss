@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            geist: ["Geist", "sans-serif"],
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <nav class="py-5 bg-black">
+    <div class="w-10/12 mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="#"><img src="image/Logo.png" alt="Logo"></a>
+          <div class="">
+            <ul class="flex items-center space-x-5 text-white ml-10 font-geist">
+              <li>
+                <a href="" class="py-2 px-4 rounded-2xl border-transparent hover:border-white border">Home</a>
+              </li>
+              <li>
+                <a href="" class="px-4 py-2 rounded-2xl border border-transparent hover:border-white">Services</a>
+              </li>
+              <li>
+                <a href="" class="px-4 py-2 rounded-2xl border border-transparent hover:border-white">Contact</a>
+              </li>
+              <li>
+                <a href="" class="px-4 py-2 rounded-2xl border border-transparent hover:border-white">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex items-center space-x-6">
+           <p class="text-white font-geist">+21 934 748 392</p>
+           <div class="flex items-center space-x-3">
+             <i class="fa-solid fa-magnifying-glass text-white w-4 h-4 bg-[#F7F6F433] rounded-full flex items-center justify-center py-4 px-4"></i>
+             <div class=" bg-[#DBFB1E] px-6 py-3 rounded-2xl cursor-pointer">
+               <a href="" class="text-black font-geist">Get a Quote</a>
+               <i class="fa-solid fa-arrow-right text-black"></i>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</html>
